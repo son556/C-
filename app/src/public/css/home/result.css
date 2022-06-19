@@ -1,0 +1,98 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+.login-page {
+    width: 360px;
+    padding: 8% 0 0;
+    margin: auto;
+}
+
+
+body {
+    background: skyblue;
+    /* fallback for old browsers */
+    background: skyblue;
+    background: linear-gradient(90deg, skyblue(141, 194, 111, 1) 0%, blue(118, 184, 82, 1) 50%);
+    font-family: "Roboto", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.form {
+    position: relative;
+    z-index: 1;
+    background: #FFFFFF;
+    max-width: 360px;
+    margin: 0 auto 100px;
+    padding: 45px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.form input {
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.more3{
+    height:30px;
+    color:#fff;
+    font-size:12px;
+    line-height:30px;
+    margin:25px auto;
+}
+
+
+.w-btn8 {
+    position: relative;
+    border: none;
+    display: inline-block;
+    padding: 15px 30px;
+    border-radius: 15px;
+    font-family: "paybooc-Light", sans-serif;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.25s;
+    margin:auto;
+    display:block;
+}
+
+.w-btn8-outline {
+    position: relative;
+    padding: 15px 30px;
+    border-radius: 15px;
+    font-family: "paybooc-Light", sans-serif;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.25s;
+}
+
+.w-btn8-indigo {
+    background-color: aliceblue;
+    color: #1e6b7b;
+}
+
+.w-btn8-indigo-outline {
+    border: 3px solid aliceblue;
+    color: #1e6b7b;
+}
+
+.w-btn8-indigo-outline:hover {
+    color: #1e6b7b;
+}
+
+.title21{
+    font-family: 'Blaka Hollow', cursive;
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    margin: 0;
+}

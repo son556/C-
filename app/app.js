@@ -1,0 +1,47 @@
+//express
+"use strict";
+
+// 모듈
+const express = require("express");
+const app = express();
+const bodyparser = require("body-parser");
+const dotenv = require("dotenv");
+dotenv.config();
+var session = require('express-session');
+var MySQLStore = require('express-mysql-session')(session);
+var options = {
+    host: 'login-lecture-son.comaybi71o9h.ap-northeast-2.rds.amazonaws.com',
+    port: 3306,
+    user: 'admin',
+    password: 'qazw35193!',
+    database: 'login_lecture'
+};
+
+var sessionStore = new MySQLStore(options);
+
+app.use(session({
+    secret: "asdfasffdas",
+    resave: false,
+    saveUninitialized: true,
+    cookie: {
+        maxAge: 1000 * 60 * 60 // 쿠키 유효기간 1시간
+      },
+    store: sessionStore
+}))
+
+// 라우팅
+const home = require("./src/routes/home");
+const bodyParser = require("body-parser");
+
+
+// 앱 세팅
+app.set("views", "./src/views");
+app.set("view engine", "ejs");
+
+app.use(bodyParser.json());
+// URL을 통해 전달되는 데이터에 한글, 공백 등과 같은 문자가 포함될 경우 제대로 인식되지 않는 문제 해결
+app.use(bodyParser.urlencoded({ extended: true }));
+app.use(express.static(`${__dirname}/src/public`));
+app.use("/", home); // use ->미들 웨어를 등록해주는 메서드.
+
+module.exports = app;

@@ -1,0 +1,102 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+
+body {
+    background: skyblue;
+    /* fallback for old browsers */
+    background: skyblue;
+    background: linear-gradient(90deg, skyblue(141, 194, 111, 1) 0%, blue(118, 184, 82, 1) 50%);
+    font-family: "Roboto", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.title11{
+    font-family: 'Blaka Hollow', cursive;
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    margin: 0;
+}
+
+.w-btn5 {
+    position: relative;
+    border: none;
+    display: inline-block;
+    padding: 15px 30px;
+    border-radius: 15px;
+    font-family: "paybooc-Light", sans-serif;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.25s;
+    margin:auto;
+    display:block;
+}
+
+.w-btn5-outline {
+    position: relative;
+    padding: 15px 30px;
+    border-radius: 15px;
+    font-family: "paybooc-Light", sans-serif;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.25s;
+}
+
+.w-btn5-indigo {
+    background-color: aliceblue;
+    color: #1e6b7b;
+}
+
+.w-btn5-indigo-outline {
+    border: 3px solid aliceblue;
+    color: #1e6b7b;
+}
+
+.w-btn5-indigo-outline:hover {
+    color: #1e6b7b;
+}
+
+.w-btn6 {
+    position: relative;
+    border: none;
+    display: inline-block;
+    padding: 15px 30px;
+    border-radius: 15px;
+    font-family: "paybooc-Light", sans-serif;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.25s;
+    margin:auto;
+    display:block;
+}
+
+.w-btn6-outline {
+    position: relative;
+    padding: 15px 30px;
+    border-radius: 15px;
+    font-family: "paybooc-Light", sans-serif;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.25s;
+}
+
+.w-btn6-indigo {
+    background-color: aliceblue;
+    color: #1e6b7b;
+}
+
+.w-btn6-indigo-outline {
+    border: 3px solid aliceblue;
+    color: #1e6b7b;
+}
+
+.w-btn6-indigo-outline:hover {
+    color: #1e6b7b;
+}
+
+/*  Copyright (c) 2022 by Aigars Silkalns (https://codepen.io/colorlib/pen/rxddKy) */

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link href="https://fonts.googleapis.com/css2?family=Blaka+Hollow&family=Noto+Sans+KR:wght@100&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="/css/home/information.css">
+  <title>Mypage</title>
+</head>
+
+<body>
+  <div id="title" class="w3-container">
+    <div id="title" class="title41">
+      <center>USER INFORMATION</center>
+    </div>
+    <div class="w3-panel w3-blue">
+      <p>ID : <%=id %>
+      </p>
+    </div>
+
+    <!-- <div class="w3-container w3-green">
+      <p>이름 : <%=name %></p>
+    </div>
+  </div> -->
+
+
+    <div class="mypage">
+      <div class="form">
+        <form class="mypage-form">
+          <input id="id" type="text" placeholder="아이디" />
+          <input id="name" type="text" placeholder="변경할 이름" />
+          <!-- <input id="id" class="w3-input w3-animate-input" type="text" style="width:30%" placeholder="아이디"> -->
+          <!-- <input id="psword" class="w3-input w3-animate-input" type="text" style="width:30%" placeholder="비밀번호 변경"> -->
+          <!-- <input id = "psword" type="password" placeholder="비밀번호"/> -->
+          <!-- <p id="button">UPDATE</p> -->
+          <br>
+          <button id="button" class="w3-button w3-blue">UPDATE Button</button>
+          <p class="message">ROOT <a href="/">Go!</a></p>
+        </form>
+      </div>
+    </div>
+</body>
+
+</html>

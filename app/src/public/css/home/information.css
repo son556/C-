@@ -1,0 +1,66 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+
+body {
+    /* font-family: 'Blaka Hollow', cursive; */
+    background: skyblue;
+    /* fallback for old browsers */
+}
+
+
+.w3-container {
+    /* font-family: 'Blaka Hollow', cursive; */
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    margin: 0;
+}
+
+.title41 {
+    font-family: 'Blaka Hollow', cursive;
+}
+
+.mypage{
+    font-family: 'Blaka Hollow', cursive;
+}
+
+.w3-button w3-blue {
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    border: none;
+    display: inline-block;
+    padding: 15px 30px;
+    border-radius: 15px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+    transition: 0.25s;
+    margin: auto;
+    display: block;
+}
+
+.w3-button w3-black-outline {
+    position: relative;
+    padding: 15px 30px;
+    border-radius: 15px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.25s;
+}
+
+.w3-button w3-black-indigo {
+    background-color: aliceblue;
+    color: #1e6b7b;
+}
+
+.w3-button w3-black-indigo-outline {
+    border: 3px solid aliceblue;
+    color: #1e6b7b;
+}
+
+.w3-button w3-black-indigo-outline:hover {
+    color: #1e6b7b;
+}
+
+
+/*  Copyright (c) 2022 by Aigars Silkalns (https://codepen.io/colorlib/pen/rxddKy) */
